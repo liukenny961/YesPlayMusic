@@ -1,16 +1,8 @@
 {
-  "github": {
-    "silent": true
-  },
   "rewrites": [
     {
-      "source": "/netease/:match*",
-      "destination": "https://netease-cloud-music-api-kohl-one-98.vercel.app/:match*"
-    },
-    {
-      "source": "/yesplaymusic/:match*",
-      "destination": "http://168.138.40.199:51324/yesplaymusic/:match*"
-    },
-    { "source": "/(.*)", "destination": "/" }
+      "source": "/api/:match*",
+      "destination": "https://netease-cloud-music-api-inky-eight.vercel.app/:match*"
+    }
   ]
 }
